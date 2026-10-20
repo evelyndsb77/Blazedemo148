@@ -1,10 +1,10 @@
-class  Homepage{
+class Homepage {
     // Arrange - Prepara
     // Mapear os elementos
-    constructor(page){
+    constructor(page) {
         // interno = externo
         this.page = page //Playwright (reservado)
-        this.origem  = '[name="fromPort"]'
+        this.origem = '[name="fromPort"]'
         this.destino = '[name="toPort"]'
         this.btnFindFlights = '.btn.btn-primary' // classe CSS
     } // fecha o constructor
@@ -21,3 +21,5 @@ class  Homepage{
     // Faremos nos testes
 
 } // fecha a classe
+
+export default HomePage // torna a classe visivel
