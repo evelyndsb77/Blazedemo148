@@ -26,4 +26,4 @@ class PurchasePage {
     }
 }
  
-export default PurchasePage
+module.exports = PurchasePage
