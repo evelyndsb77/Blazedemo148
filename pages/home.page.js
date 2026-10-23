@@ -1,4 +1,4 @@
-class Homepage {
+class HomePage {
     // Arrange - Prepara
     // Mapear os elementos
     constructor(page) {
@@ -22,4 +22,4 @@ class Homepage {
 
 } // fecha a classe
 
-export default HomePage // torna a classe visivel
+export default HomePage
